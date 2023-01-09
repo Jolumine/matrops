@@ -1,9 +1,15 @@
 Change log
 ===========
 
-0.0.1 (DD/MM/YYYY)
+0.0.1 (09/01/2023)
 -------------------
 
-Pre-release of the matrops python package. 
+First release of the package. State: pre-release
+
+
+0.0.2 (09/01/2023)
+-------------------
+
+Reupload due to an error on PyPi. 
 
 
