@@ -1,0 +1,7 @@
+global-include *.py *.md *.txt
+prune tests*
+prune docs*
+prune assets*
+prune .vscode*
+prune .venv*
+prune utils*

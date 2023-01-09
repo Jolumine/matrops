@@ -1,21 +1,20 @@
-```
-                                    _                       
-                                    | |                      
-                    _ __ ___   __ _| |_ _ __ ___  _ __  ___ 
-                    | '_ ` _ \ / _` | __| '__/ _ \| '_ \/ __|
-                    | | | | | | (_| | |_| | | (_) | |_) \__ \
-                    |_| |_| |_|\__,_|\__|_|  \___/| .__/|___/
-                                                | |        
-                                                |_|        
+```              _                       
+                | |                      
+ _ __ ___   __ _| |_ _ __ ___  _ __  ___ 
+| '_ ` _ \ / _` | __| '__/ _ \| '_ \/ __|
+| | | | | | (_| | |_| | | (_) | |_) \__ \
+|_| |_| |_|\__,_|\__|_|  \___/| .__/|___/
+                              | |        
+                              |_|        
 ```
 
-# :1234: Matrops
+# Matrops
 
-This is a python package for matrix and vector operations like, addition, substraction, multiplication, scale and transpose. <br>
+This is a python package for matrix and vector operations like, addition, subtraction, multiplication, scale and transpose. <br>
 More options like graphics for vectors, calculating the angle beetween to vectors and more are comming soon. 
 <br>
 
-## :scroll: Table of contents 
+## Table of contents 
 
 - Installation 
 - Example
@@ -24,12 +23,10 @@ More options like graphics for vectors, calculating the angle beetween to vector
 
 <br>
 
-## :white_check_mark: Installation 
+## Installation 
 
 ```ps
-git clone <link>
-cd matrops/
-python setup.py install
+pip install matrops
 ```
 
 ```ps
@@ -38,7 +35,7 @@ python -m matrops
 
 <br>
 
-## :arrow_forward: Example
+## Example
 
 ```py
 from matrops.matrix import Matrix, MatrixOps
@@ -61,15 +58,16 @@ if __name__ == "__main__":
 ```
 <br>
 
-## :soon: Coming soon 
+## Coming soon 
 
 - Detailed calculations
 - Possibility to calculate the angle beetween 2 vectors
+- Vector Product
 - Show vectors in a graphical interface
 
 <br>
 
 
-## :busts_in_silhouette: Contributors
+## Contributors
 
 - Leonard Becker
