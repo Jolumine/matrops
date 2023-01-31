@@ -59,7 +59,7 @@ add_result_v = VectorOps.add(vector1, vector2) # Returns a vector
 
 # subtract 2 matrices 
 
-sub_result_m = MatrixOps.subtrac(matrix1, matrix2)
+sub_result_m = MatrixOps.subtract(matrix1, matrix2)
 
 # substract 2 vectors
 
@@ -72,6 +72,10 @@ multi_result_m = MatrixOps.multiply(matrix1, matrix3)
 # multiply 2 vectors 
 
 multi_result_v = VectorOps.multiply(vector1, vector2)
+
+# calculate the angle beetween to vectors
+
+angle = VectorOps.angle_beetween(vector1, vector2) # Returns a float or an integer
 ```
 <br>
 

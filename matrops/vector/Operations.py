@@ -7,6 +7,7 @@
 from matrops.vector.Vector import Vector
 from matrops.exceptions import IncompatibilityException
 
+import math
 
 class VectorOps:
     @classmethod
@@ -35,10 +36,15 @@ class VectorOps:
             return Vector(result) 
 
     @classmethod
-    def multiply(cls, v1:Vector, v2:Vector) -> Vector:
+    def multiply(cls, v1:Vector, v2:Vector) -> int:
         if cls.check_compatibilty(v1, v2):
             result = []
             for index in range(v1.get_dimensions()): 
                 result.append(v1.get_data()[index]*v2.get_data()[index])
             
-            return Vector(result) 
+            return sum(result) 
+
+    @classmethod
+    def angle_beetween(cls, v1:Vector, v2:Vector) -> float: 
+        if cls.check_compatibilty(v1, v2): 
+            return round(math.acos((cls.multiply(v1, v2)) / (v1.get_length()*v2.get_length())) * (180.0 / math.pi), 2)

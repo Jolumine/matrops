@@ -7,6 +7,8 @@
 from matrops.vector import Vector
 from matrops.exceptions import VectorUsageException
 
+import math
+
 class Vector:
     def __init__(self, data):
         if len(data) >= 2 and type(data[0]) != list: 
@@ -48,13 +50,12 @@ class Vector:
     def get_length(self) -> int: 
         """
         Returns the geometrical length of the vector
-        (Prepared for angle calculations)
         """
         result = 0
         for number in self.__data: 
             result+=number**2
         
-        return round(result**0.5)
+        return math.sqrt(result)
 
     def get_dimensions(self) -> int: 
         """

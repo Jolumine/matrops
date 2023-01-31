@@ -16,6 +16,10 @@ class TestVector(unittest.TestCase):
         self.test_vector4 = V([12, 32, 2])
         self.test_vector5 = V([3, 1])
         self.test_vector6 = V([10, 21])
+        self.test_vector7 = V([1, 5])
+        self.test_vector8 = V([3, 7])
+        self.testvector9 = V([3, -2, -1])
+        self.testvector10 = V([4, 3, 2])
     
     def test_addition(self) -> None: 
         result1 = VectorOps.add(self.test_vector1, self.test_vector2).get_data()
@@ -36,10 +40,19 @@ class TestVector(unittest.TestCase):
         self.assertEqual(result, real_result)
 
     def test_multiplication(self) -> None:
-        result = VectorOps.multiply(self.test_vector1, self.test_vector3).get_data()
-        real_result = [12, 21, 6] 
+        result = VectorOps.multiply(self.test_vector1, self.test_vector3)
+        real_result = 39
         self.assertEqual(result, real_result)
 
+    def test_angle(self) -> None: 
+        result1 = VectorOps.angle_beetween(self.test_vector7, self.test_vector8)
+        real_result1 = 11.89
+        
+        result2 = VectorOps.angle_beetween(self.testvector9, self.testvector10)
+        real_result2 = 78.55
+
+        self.assertEqual(result1, real_result1)
+        self.assertEqual(result2, real_result2)
 
     
         

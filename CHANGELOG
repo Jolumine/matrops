@@ -13,3 +13,7 @@ First release of the package. State: pre-release
 Reupload due to an error on PyPi. 
 
 
+0.1.2 (31/01/2023)
+-------------------
+
+New Feature: Calculate the angle beetween 2 vectors
