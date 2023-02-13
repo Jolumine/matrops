@@ -14,15 +14,6 @@ This is a python package for matrix and vector operations like, addition, subtra
 More options like graphics for vectors, calculating the angle beetween to vectors and more are comming soon. 
 <br>
 
-## Table of contents 
-
-- Installation 
-- Example
-- Coming soon
-- Contributors
-
-<br>
-
 ## Installation 
 
 ```ps
@@ -33,7 +24,6 @@ pip install matrops
 python -m matrops
 ```
 
-<br>
 
 ## Example
 
@@ -56,18 +46,3 @@ if __name__ == "__main__":
 
     # Read documentation for more usage examples 
 ```
-<br>
-
-## Coming soon 
-
-- Detailed calculations
-- Possibility to calculate the angle beetween 2 vectors
-- Vector Product
-- Show vectors in a graphical interface
-
-<br>
-
-
-## Contributors
-
-- Leonard Becker

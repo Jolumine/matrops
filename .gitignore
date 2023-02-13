@@ -8,6 +8,10 @@ __pycache__/
 
 .vscode/
 
+# Obsidian 
+
+.obsidian/
+
 # Distribution / packaging
 .Python
 build/
